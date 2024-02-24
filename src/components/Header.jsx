@@ -7,7 +7,9 @@ const Header = () => {
 			<ul>
 				<Link to='/'>Home</Link>
 				<Link to='cart'>Cart</Link>
-				
+				<span>
+					cart Items : 0
+				</span>
 			</ul>
 		</div>
 	);
